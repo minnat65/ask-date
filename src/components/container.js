@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './container.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import gif from '../assets/zenitsu-DS.gif';
 // import YesComponent from '.';
 
@@ -39,6 +39,9 @@ const Container = () => {
             No
           </button>
         </div>
+        <p style={{ position: 'absolute', left: 10, bottom: 5 }}>
+          Minnat Ali <Link to='https://github.com/minnat65/ask-date' target='_blank' >GitHub</Link>
+        </p>
       </div>
     </div>
   )
