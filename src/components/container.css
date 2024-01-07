@@ -1,0 +1,55 @@
+.container {
+  margin: 0;
+}
+
+.para {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+button {
+  margin: 15px;
+  cursor: pointer;
+  padding: 12px 22px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.yes {
+  border: 2px solid green;
+}
+
+.no {
+  color: red;
+  border: 2px solid red;
+}
+
+.no:hover {
+  background-color: red;
+  color: black;
+}
+
+.img-container {
+  width: 60%;
+  height: 70%;
+  display: inline-block;
+}
+
+.zanitsu {
+  width: 20%;
+  height: 20%;
+}
+
+@media screen and (max-width: 900px) {
+  .img-container {
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+  }
+
+  .zanitsu {
+    width: 100%;
+    height: 20%;
+  }
+}
