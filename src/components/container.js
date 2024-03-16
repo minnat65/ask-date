@@ -13,7 +13,7 @@ const Container = () => {
   const [obj, setObj] = useState({})
   const positionHandler = () => {
     const x = getValInRange(-window.innerWidth / 2, window.innerWidth / 2 - 100);
-    const y = getValInRange(0, window.innerHeight / 2);
+    const y = getValInRange(0, window.innerHeight / 3);
 
     const newObj = {
       position: 'relative',
@@ -26,7 +26,7 @@ const Container = () => {
   return (
     <div className='container'>
       <div>
-        <p className='para'>Let's meet</p>
+        <p className='para'>Hey, Let's meet</p>
         <img src={gif} alt='GIF' className='zanitsu' />
         <div style={{}}>
           <button className='yes' onClick={() => {navigate('/meet')}}>Yes</button>
